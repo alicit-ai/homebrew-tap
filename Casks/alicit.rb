@@ -5,22 +5,22 @@ cask "alicit" do
   on_macos do
     on_intel do
       sha256 "c2889a91cd09bf5e6a5bdee383043fb070ab945219a623134e6fd729623f9129"
-      url "https://github.com/alicit-ai/alicit/releases/download/v#{version}/alicit_#{version}_darwin_amd64.tar.gz"
+      url "https://alicit.ai/download/v#{version}/alicit_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
       sha256 "0a528a91827c2fa213265f76543569f70c7711e1bfc6177aebdaa4f92658c899"
-      url "https://github.com/alicit-ai/alicit/releases/download/v#{version}/alicit_#{version}_darwin_arm64.tar.gz"
+      url "https://alicit.ai/download/v#{version}/alicit_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
       sha256 "d0fb0a8c232a63db7b702b709831cb337645741738b9e371250f332386de1f9e"
-      url "https://github.com/alicit-ai/alicit/releases/download/v#{version}/alicit_#{version}_linux_amd64.tar.gz"
+      url "https://alicit.ai/download/v#{version}/alicit_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
       sha256 "7b3f76210a5615202942b3d1179007c06c61221a7856ccd460448a1c4480f4de"
-      url "https://github.com/alicit-ai/alicit/releases/download/v#{version}/alicit_#{version}_linux_arm64.tar.gz"
+      url "https://alicit.ai/download/v#{version}/alicit_#{version}_linux_arm64.tar.gz"
     end
   end
 
